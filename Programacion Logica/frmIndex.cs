@@ -70,5 +70,11 @@ namespace Programacion_Logica
             SP4E1 sP4E1 = new SP4E1();
             sP4E1.ShowDialog();
         }
+
+        private void cmdE10305_Click(object sender, EventArgs e)
+        {
+            frmE10305 form = new frmE10305();
+            form.ShowDialog();
+        }
     }
 }

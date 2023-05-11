@@ -46,6 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmE10305.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE10305.Designer.cs">
+      <DependentUpon>frmE10305.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE10805.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE10805.Designer.cs">
+      <DependentUpon>frmE10805.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE11005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE11005.Designer.cs">
+      <DependentUpon>frmE11005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE20305.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE20305.Designer.cs">
+      <DependentUpon>frmE20305.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE30305.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE30305.Designer.cs">
+      <DependentUpon>frmE30305.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE40305.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE40305.Designer.cs">
+      <DependentUpon>frmE40305.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmIndex.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +144,9 @@
     <Compile Include="SP4E1.Designer.cs">
       <DependentUpon>SP4E1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmE10305.resx">
+      <DependentUpon>frmE10305.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmIndex.resx">
       <DependentUpon>frmIndex.cs</DependentUpon>
     </EmbeddedResource>
