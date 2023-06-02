@@ -76,5 +76,11 @@ namespace Programacion_Logica
             frmE10305 form = new frmE10305();
             form.ShowDialog();
         }
+
+        private void cmdE183105_Click(object sender, EventArgs e)
+        {
+            frmE183105 form = new frmE183105();
+            form.ShowDialog();
+        }
     }
 }

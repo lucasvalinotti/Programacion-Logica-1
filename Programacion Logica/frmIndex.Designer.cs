@@ -50,15 +50,17 @@
             this.sP7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cLASESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdE10305 = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdE20305 = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdE30305 = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdE40305 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdE10805 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdE11005 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmdE183105 = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -187,7 +189,7 @@
             // cmdSP4E1
             // 
             this.cmdSP4E1.Name = "cmdSP4E1";
-            this.cmdSP4E1.Size = new System.Drawing.Size(180, 30);
+            this.cmdSP4E1.Size = new System.Drawing.Size(104, 30);
             this.cmdSP4E1.Text = "E1";
             this.cmdSP4E1.Click += new System.EventHandler(this.cmdSP4E1_Click);
             // 
@@ -214,7 +216,8 @@
             this.cLASESToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2,
             this.toolStripMenuItem3,
-            this.toolStripMenuItem4});
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem5});
             this.cLASESToolStripMenuItem.Name = "cLASESToolStripMenuItem";
             this.cLASESToolStripMenuItem.Size = new System.Drawing.Size(84, 29);
             this.cLASESToolStripMenuItem.Text = "CLASES";
@@ -230,6 +233,31 @@
             this.toolStripMenuItem2.Size = new System.Drawing.Size(184, 30);
             this.toolStripMenuItem2.Text = "03/05/23";
             // 
+            // cmdE10305
+            // 
+            this.cmdE10305.Name = "cmdE10305";
+            this.cmdE10305.Size = new System.Drawing.Size(104, 30);
+            this.cmdE10305.Text = "E1";
+            this.cmdE10305.Click += new System.EventHandler(this.cmdE10305_Click);
+            // 
+            // cmdE20305
+            // 
+            this.cmdE20305.Name = "cmdE20305";
+            this.cmdE20305.Size = new System.Drawing.Size(104, 30);
+            this.cmdE20305.Text = "E2";
+            // 
+            // cmdE30305
+            // 
+            this.cmdE30305.Name = "cmdE30305";
+            this.cmdE30305.Size = new System.Drawing.Size(104, 30);
+            this.cmdE30305.Text = "E3";
+            // 
+            // cmdE40305
+            // 
+            this.cmdE40305.Name = "cmdE40305";
+            this.cmdE40305.Size = new System.Drawing.Size(104, 30);
+            this.cmdE40305.Text = "E4";
+            // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -237,6 +265,41 @@
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(184, 30);
             this.toolStripMenuItem3.Text = "08/05/23";
+            // 
+            // cmdE10805
+            // 
+            this.cmdE10805.Name = "cmdE10805";
+            this.cmdE10805.Size = new System.Drawing.Size(104, 30);
+            this.cmdE10805.Text = "E1";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cmdE11005});
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(184, 30);
+            this.toolStripMenuItem4.Text = "10/05/2023";
+            // 
+            // cmdE11005
+            // 
+            this.cmdE11005.Name = "cmdE11005";
+            this.cmdE11005.Size = new System.Drawing.Size(180, 30);
+            this.cmdE11005.Text = "E1";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cmdE183105});
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(184, 30);
+            this.toolStripMenuItem5.Text = "31/05/2023";
+            // 
+            // cmdE183105
+            // 
+            this.cmdE183105.Name = "cmdE183105";
+            this.cmdE183105.Size = new System.Drawing.Size(180, 30);
+            this.cmdE183105.Text = "E18";
+            this.cmdE183105.Click += new System.EventHandler(this.cmdE183105_Click);
             // 
             // label1
             // 
@@ -247,51 +310,6 @@
             this.label1.Size = new System.Drawing.Size(796, 95);
             this.label1.TabIndex = 5;
             this.label1.Text = "PROGRAMACION LOGICA 1";
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cmdE11005});
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(184, 30);
-            this.toolStripMenuItem4.Text = "10/05/2023";
-            // 
-            // cmdE10305
-            // 
-            this.cmdE10305.Name = "cmdE10305";
-            this.cmdE10305.Size = new System.Drawing.Size(180, 30);
-            this.cmdE10305.Text = "E1";
-            this.cmdE10305.Click += new System.EventHandler(this.cmdE10305_Click);
-            // 
-            // cmdE20305
-            // 
-            this.cmdE20305.Name = "cmdE20305";
-            this.cmdE20305.Size = new System.Drawing.Size(180, 30);
-            this.cmdE20305.Text = "E2";
-            // 
-            // cmdE30305
-            // 
-            this.cmdE30305.Name = "cmdE30305";
-            this.cmdE30305.Size = new System.Drawing.Size(180, 30);
-            this.cmdE30305.Text = "E3";
-            // 
-            // cmdE40305
-            // 
-            this.cmdE40305.Name = "cmdE40305";
-            this.cmdE40305.Size = new System.Drawing.Size(180, 30);
-            this.cmdE40305.Text = "E4";
-            // 
-            // cmdE10805
-            // 
-            this.cmdE10805.Name = "cmdE10805";
-            this.cmdE10805.Size = new System.Drawing.Size(180, 30);
-            this.cmdE10805.Text = "E1";
-            // 
-            // cmdE11005
-            // 
-            this.cmdE11005.Name = "cmdE11005";
-            this.cmdE11005.Size = new System.Drawing.Size(180, 30);
-            this.cmdE11005.Text = "E1";
             // 
             // frmIndex
             // 
@@ -343,5 +361,7 @@
         private System.Windows.Forms.ToolStripMenuItem cmdE10805;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem cmdE11005;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem cmdE183105;
     }
 }
